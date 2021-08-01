@@ -1,0 +1,345 @@
+{
+  "users": [
+    {
+      "id": "100",
+      "username": "Aayansh",
+      "password": "aayan"
+    },
+    {
+      "id": "101",
+      "username": "Atharv",
+      "password": "athar"
+    },
+    {
+      "id": "102",
+      "username": "Rihaan",
+      "password": "rihaa"
+    },
+    {
+      "id": "103",
+      "username": "Sophia",
+      "password": "sophi"
+    },
+    {
+      "id": "104",
+      "username": "Kiyansh",
+      "password": "kiyan"
+    },
+    {
+      "id": "105",
+      "username": "Yuvaan",
+      "password": "yuvaa"
+    },
+    {
+      "id": "106",
+      "username": "Olivia",
+      "password": "olivi"
+    },
+    {
+      "id": "107",
+      "username": "Ivaan",
+      "password": "ivaan"
+    },
+    {
+      "id": "108",
+      "username": "Riley",
+      "password": "riley"
+    },
+    {
+      "id": "109",
+      "username": "Jackson",
+      "password": "jacks"
+    }
+  ],
+  "user_course": [
+    {
+      "id": 1,
+      "userid": "100",
+      "courseid": 201,
+      "progress": 38
+    },
+    {
+      "id": 2,
+      "userid": "100",
+      "courseid": 203,
+      "progress": 90
+    },
+    {
+      "id": 3,
+      "userid": "103",
+      "courseid": 201,
+      "progress": 67
+    },
+    {
+      "id": 4,
+      "userid": "100",
+      "courseid": 303,
+      "progress": 49
+    },
+    {
+      "id": 5,
+      "userid": "103",
+      "courseid": 402,
+      "progress": 80
+    },
+    {
+      "id": 6,
+      "userid": "107",
+      "courseid": 302,
+      "progress": 20
+    },
+    {
+      "id": 7,
+      "userid": "105",
+      "courseid": 303,
+      "progress": 90
+    },
+    {
+      "id": 8,
+      "userid": "101",
+      "courseid": 202,
+      "progress": 95
+    },
+    {
+      "id": 9,
+      "userid": "105",
+      "courseid": 402,
+      "progress": 60
+    },
+    {
+      "id": 10,
+      "userid": "102",
+      "courseid": 302,
+      "progress": 15
+    },
+    {
+      "userid": "100",
+      "courseid": "200",
+      "progress": 0,
+      "id": 11
+    },
+    {
+      "userid": "100",
+      "courseid": "302",
+      "progress": 0,
+      "id": 12
+    },
+    {
+      "userid": "104",
+      "courseid": "200",
+      "progress": 0,
+      "id": 13
+    },
+    {
+      "userid": "104",
+      "courseid": "301",
+      "progress": 0,
+      "id": 14
+    },
+    {
+      "userid": "106",
+      "courseid": "202",
+      "progress": 0,
+      "id": 15
+    },
+    {
+      "userid": "106",
+      "courseid": "203",
+      "progress": 0,
+      "id": 16
+    },
+    {
+      "userid": "106",
+      "courseid": "201",
+      "progress": 0,
+      "id": 17
+    }
+  ],
+  "courses": [
+    {
+      "id": "200",
+      "name": "Reactjs",
+      "desc": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+      "category": "Web Development",
+      "tutor": "Hitesh Choudhary",
+      "price": 750,
+      "rating": 4.5,
+      "duration": 1.5,
+      "video": "http://127.0.0.1:5500/assets/videos/ReactJS.mp4",
+      "enrolled_users": [
+        "103",
+        "100",
+        "104"
+      ]
+    },
+    {
+      "id": "201",
+      "name": "Javascript",
+      "desc": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+      "category": "Web Development",
+      "tutor": "Beau Carnes",
+      "price": 999,
+      "rating": 4.7,
+      "duration": 3.5,
+      "video": "http://127.0.0.1:5500/assets/videos/JavaScript.mp4",
+      "enrolled_users": [
+        "100",
+        "106"
+      ]
+    },
+    {
+      "id": "202",
+      "name": "CSS Full Course",
+      "desc": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid",
+      "category": "Web Development",
+      "tutor": "Beau Carnes",
+      "price": 650,
+      "rating": 4.6,
+      "duration": 1.5,
+      "video": "http://127.0.0.1:5500/assets/videos/CSS.mp4",
+      "enrolled_users": [
+        "106"
+      ]
+    },
+    {
+      "id": "203",
+      "name": "Bootstrap 5 tutorial",
+      "desc": "Learn and create amazing high quality Bootstrap 4 themes and UIs from scratch",
+      "category": "Web Development",
+      "tutor": "David",
+      "price": 650,
+      "rating": 3.9,
+      "duration": 1.5,
+      "video": "http://127.0.0.1:5500/assets/videos/Bootstrap.mp4",
+      "enrolled_users": [
+        "100",
+        "106"
+      ]
+    },
+    {
+      "id": "300",
+      "name": "Introduction to DBMS ",
+      "desc": "Learn Fundamental Concepts of Database Management from scratch",
+      "category": "Database Design and Development",
+      "tutor": "Jenny",
+      "price": 649,
+      "rating": 3,
+      "duration": 0.5,
+      "video": "http://127.0.0.1:5500//assets/videos/DBMS.mp4",
+      "enrolled_users": []
+    },
+    {
+      "id": "301",
+      "name": "SQL Basics for Beginners",
+      "desc": "Become an expert at Sql!",
+      "category": "Database Design and Development",
+      "tutor": "Pratheep",
+      "price": 600,
+      "rating": 3.5,
+      "duration": 0.5,
+      "video": "http://127.0.0.1:5500/assets/videos/SQL.mp4",
+      "enrolled_users": [
+        "104"
+      ]
+    },
+    {
+      "id": "302",
+      "name": "MongoDB",
+      "desc": "Master MongoDB Development for Web & Mobile Apps.",
+      "category": "Database Design and Development",
+      "tutor": "Tim Corey",
+      "price": 499,
+      "rating": 4.4,
+      "duration": 0.5,
+      "video": "http://127.0.0.1:5500/assets/videos/MongoDB.mp4",
+      "enrolled_users": [
+        "107",
+        "102",
+        "100"
+      ]
+    },
+    {
+      "id": "303",
+      "name": "CouchDB Basics",
+      "desc": "NoSQL Database and Go with CouchDB",
+      "category": "Database Design and Development",
+      "tutor": "Greg Miller",
+      "price": 550,
+      "rating": 4,
+      "duration": 0.5,
+      "video": "./assets/videos/CouchDB.mp4",
+      "enrolled_users": [
+        "100",
+        "105"
+      ]
+    },
+    {
+      "id": "400",
+      "name": "Data Structures",
+      "desc": "Ultimate coding interview bootcamp. Get more job offers, negotiate a raise: Everything you need to get the job you want!",
+      "category": "Software Engineering",
+      "tutor": "Mosh",
+      "price": 599,
+      "rating": 4.1,
+      "duration": 1,
+      "video": "http://127.0.0.1:5500/assets/videos/Data_Structures.mp4",
+      "enrolled_users": []
+    },
+    {
+      "id": "401",
+      "name": "Pathfinding Visualizer Tutorial ",
+      "desc": "A real software engineer project that is a path finder visualizer. Put on your thinking caps!",
+      "category": "Software Engineering",
+      "tutor": "Clement Mihailescu",
+      "price": 499,
+      "rating": 3.4,
+      "duration": 1,
+      "video": "http://127.0.0.1:5500/assets/videos/Pathfinding.mp4",
+      "enrolled_users": []
+    },
+    {
+      "id": "402",
+      "name": "How to pass a coding interview",
+      "desc": "Prepare for your coding interview with these 8 steps that works for every aspiring individual to crack your coding interviews",
+      "category": "Software Engineering",
+      "tutor": "Rachit Jain",
+      "price": 499,
+      "rating": 4.2,
+      "duration": 0.5,
+      "video": "http://127.0.0.1:5500/assets/videos/preparation_Interview.mp4",
+      "enrolled_users": [
+        "105"
+      ]
+    },
+    {
+      "id": "500",
+      "name": "Self taught graphic designer",
+      "desc": "Graphic design is the process of visual communication and problem-solving. The field is considered a Graphic design is the process of visual communication and problem-solving. The field is considered a subset of visual communication and communication design, but the term \"graphic design\" is sometimes used synonymously. Visual communication is a broad spectrum that includes signs, typography, drawing, graphic design, illustration, industrial design, advertising, animation, color, and electronic resources. Graphic Design is a complex task and requires you to have many skills and knowledge of tools that help in Graphic designing. This free graphic design course will provide you with a basic introduction into the field and introduce you to Photoshop as a graphic designing tool. With these graphic design tutorials, you will learn to work with the text, graphics, and other effects that made designing easier and interesting for artists, designers, and photographers.",
+      "category": "Photography",
+      "tutor": "Kayung Caleb Lei",
+      "price": 550,
+      "rating": 4.1,
+      "duration": 0.5,
+      "video": "http://127.0.0.1:5500/assets/videos/graphic.mp4",
+      "enrolled_users": []
+    },
+    {
+      "id": "501",
+      "name": "8 Steps to Edit a Video in Premiere Pro",
+      "desc": "Video editing is a complicated process known in the film industry as Post-production. This video editing course will provide a brief understanding of the process. Nowadays, editing videos has become more accessible for people due to the availability of free software and web information sharing. This online video editing course will provide a guide to video editing fundamentals, its jargon, process, resources, and career options, etc., in the world of video editing.  Learn video editing skills for free with an introduction to video editing and the scope of the same in different industries. This free video editing course will take you through Premiere Pro's functioning and display how to create a video in Premiere Pro.",
+      "category": "Photography",
+      "tutor": "Parker Walbeck",
+      "price": 550,
+      "rating": 3.8,
+      "duration": 0.5,
+      "video": "http://127.0.0.1:5500/assets/videos/Edit_a_Video",
+      "enrolled_users": []
+    }
+  ],
+  "categories": [
+    "Web Development",
+    "Database Design and Development",
+    "Software Engineering",
+    "Photography"
+  ]
+}

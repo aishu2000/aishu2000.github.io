@@ -1,0 +1,45 @@
+.carousel-caption{
+    font-size: 2em!important;
+}
+.carimage{
+    filter: blur(4px);
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    border-radius: 1 rem;
+    
+}
+.container-fluid
+{
+    background-color: floralwhite;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 1rem;
+    
+}
+.form-control{
+    width: 150% !important;
+}
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: ""; 
+}
+
+.loginform{
+    background-color:#b9f1db;
+    align-content: center;
+    padding-left: 250px;
+    
+}
+.carcontent{
+    /* position:inherit;
+    margin: 35px;
+    color: white;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    margin-bottom: 30%;
+    font-size: larger;
+    color: rgb(205, 255, 228);
+}
