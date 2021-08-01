@@ -207,7 +207,7 @@ function loadMainCourse(){
        return courses.map((course)=>{
         //console.log( course.name);
           if(course.rating>=4.5&&(count++)<3){  
-            showCourse(course.id,course.name,course.desc,course.category,course.tutor,course.price,course.rating,allCourses);
+            showCourse(course.id,course.name,course.desc,course.category,course.tutor,course.price,course.rating,course.video,allCourses);
           }
            });
       }).catch(()=>{console.log("Error in response");});
